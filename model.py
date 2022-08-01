@@ -26,4 +26,6 @@ class Pattern(db.Model):
     title = db.Column(db.String(50), nullable = False, unique=True)
     skill = db.Column(db.String(20), nullable = False)
     type = db.Column(db.String(20), nullable = False)
+    pattern = db.Column(db.Text, nullabe=False)
+
     
